@@ -21,6 +21,8 @@ jobs:
             any::dplyr
             any::xml2
             any::rvest
+            any::readr
+            any::knitr
       - name: Generating table
         run: |-
           Rscript "scrape_pbh.R"
