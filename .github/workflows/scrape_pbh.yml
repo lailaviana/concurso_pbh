@@ -23,6 +23,7 @@ jobs:
             any::rvest
             any::readr
             any::knitr
+            any::lubridate
       - name: Generating table
         run: |-
           Rscript "scrape_pbh.R"
