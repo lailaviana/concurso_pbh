@@ -16,6 +16,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
+          cache-version: 2
           packages: |
             any::dplyr
             any::xml2
