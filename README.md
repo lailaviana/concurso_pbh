@@ -2,5 +2,5 @@
 Acompanhando as atualizações do concurso da PBH
 
 ``` r
-r_pbh_final
+read.csv("pbh_table.csv")
 ```
