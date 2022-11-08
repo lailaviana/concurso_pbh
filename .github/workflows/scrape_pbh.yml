@@ -22,7 +22,7 @@ jobs:
             any::rvest
       - name: Generating table
         run: |-
-          Rscript "concurso_pbh.R"
+          Rscript "scrape_pbh.R"
       - name: Commit e Push
         run: |-
           git config user.name "github-actions"
