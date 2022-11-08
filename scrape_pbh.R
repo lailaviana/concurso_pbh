@@ -12,4 +12,4 @@ r_pbh <- url |>
   rvest::html_table()
 
 r_pbh_final <- r_pbh[[1]] |> dplyr::select(1,4)
-r_pbh_final |> write_csv("pbh_table.csv")
+r_pbh_final |> mutate(Data = dmy(Data)) |> arrange(desc(Data)) |>  write_csv("pbh_table.csv")
