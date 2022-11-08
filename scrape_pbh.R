@@ -1,6 +1,8 @@
 library(dplyr)
 library(xml2)
 library(rvest)
+library(readr)
+library(knitr)
 
 url <- "https://prefeitura.pbh.gov.br/saude/oportunidades-de-trabalho/concurso-publico-01-2020"
 
