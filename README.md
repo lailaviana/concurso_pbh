@@ -2,5 +2,6 @@
 Acompanhando as atualizações do concurso da PBH
 
 ``` r
-read.csv("pbh_table.csv")
+read.csv("pbh_table.csv") |> 
+  knitr::kable()
 ```
